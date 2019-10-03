@@ -1,7 +1,23 @@
 language: generic
 
-arch: 
-  - arm64
-  - amd64
+matrix:
+  include:
+   - os: linux
+     env: DIST=precise
+     dist: precise
+     arch: arm64
+   - os: linux
+     env: DIST=trusty
+     dist: trusty
+     arch: arm64
+   - os: linux
+     env: DIST=xenial
+     dist: xenial
+     arch: arm64
+   - os: linux
+     env: DIST=bionic
+     dist: bionic
+     arch: arm64
+
 
 script: echo hi
