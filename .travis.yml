@@ -1,0 +1,7 @@
+language: generic
+
+arch: 
+  - arm64
+  - amd64
+
+script: echo hi
