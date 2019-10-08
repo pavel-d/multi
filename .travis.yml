@@ -2,7 +2,7 @@ language: generic
 
 matrix:
   include:
-   - name: Some reeeeeeeeeeaaaaaaaally long name goes here
+   - name: Some reeeeeeeeeeaaaaaaaally reeeeeeeeeeaaaaaaaally reeeeeeeeeeaaaaaaaally long name goes here
      os: linux
      env: DIST=precise
      dist: precise
