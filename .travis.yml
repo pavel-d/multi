@@ -7,7 +7,8 @@ matrix:
      env: DIST=precise
      dist: precise
      arch: arm64
-   - os: linux
+   - name: Random stage name
+     os: linux
      env: DIST=trusty
      dist: trusty
      arch: arm64
