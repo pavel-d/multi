@@ -12,6 +12,15 @@ matrix:
      env: DIST=trusty
      dist: trusty
      arch: arm64
+   - name: Default arch
+     os: linux
+     env: DIST=bionic
+     dist: bionic
+   - name: AMD arch
+     os: linux
+     env: DIST=bionic
+     dist: bionic
+     arch: amd64
    - os: linux
      env: DIST=xenial
      dist: xenial
