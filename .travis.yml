@@ -4,19 +4,15 @@ matrix:
   include:
    - name: amd64 bionic
      os: linux
-     env: DIST=bionic
      dist: bionic
      arch: amd64
    - os: arm64 xenial
-     env: DIST=xenial
      dist: xenial
      arch: arm64
    - os: arm64 bionic
-     env: DIST=bionic
      dist: bionic
      arch: arm64
    - os: ppc64le
-     env: DIST=bionic
      dist: xenial
      arch: ppc64le
 
