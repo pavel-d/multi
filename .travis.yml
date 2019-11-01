@@ -19,4 +19,4 @@ matrix:
      arch: s390x
 
 
-script: uname -m
+script: echo $TRAVIS_ARCH
