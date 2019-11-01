@@ -2,33 +2,23 @@ language: generic
 
 matrix:
   include:
-   - name: Some reeeeeeeeeeaaaaaaaally reeeeeeeeeeaaaaaaaally reeeeeeeeeeaaaaaaaally long name goes here
-     os: linux
-     env: DIST=precise
-     dist: precise
-     arch: arm64
-   - name: Random stage name
-     os: linux
-     env: DIST=trusty
-     dist: trusty
-     arch: arm64
-   - name: Default arch
-     os: linux
-     env: DIST=bionic
-     dist: bionic
-   - name: AMD arch
+   - name: amd64 bionic
      os: linux
      env: DIST=bionic
      dist: bionic
      arch: amd64
-   - os: linux
+   - os: arm64 xenial
      env: DIST=xenial
      dist: xenial
      arch: arm64
-   - os: linux
+   - os: arm64 bionic
      env: DIST=bionic
      dist: bionic
      arch: arm64
+   - os: ppc64le
+     env: DIST=bionic
+     dist: xenial
+     arch: ppc64le
 
 
-script: echo hi
+script: uname -m
