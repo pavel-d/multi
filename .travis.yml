@@ -15,6 +15,8 @@ matrix:
    - os: ppc64le
      dist: xenial
      arch: ppc64le
+   - os: s390x
+     arch: s390x
 
 
 script: uname -m
