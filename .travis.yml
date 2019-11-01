@@ -19,4 +19,4 @@ matrix:
      arch: s390x
 
 
-script: echo $TRAVIS_ARCH
+script: echo $TRAVIS_CPU_ARCH
