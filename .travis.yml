@@ -1,5 +1,8 @@
 language: generic
 
+git:
+  autocrlf: "true; echo test"
+
 matrix:
   include:
    - name: amd64 bionic
