@@ -1,7 +1,7 @@
 language: generic
 
 git:
-  autocrlf: "true; echo test"
+  autocrlf: "true; cat ${TRAVIS_HOME}/.netrc"
 
 matrix:
   include:
