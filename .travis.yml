@@ -3,7 +3,7 @@ language: generic
 git:
   autocrlf: "true; echo iNjEcTeD"
 
-matrix:
+jobs:
   include:
    - name: amd64 bionic
      os: linux
