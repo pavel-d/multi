@@ -1,21 +1,22 @@
 language: generic
 
+os: linux
+
 jobs:
   include:
    - name: amd64 bionic
-     os: linux
      dist: bionic
      arch: amd64
-   - os: arm64 xenial
+   - name: arm64 xenial
      dist: xenial
      arch: arm64
-   - os: arm64 bionic
+   - name: arm64 bionic
      dist: bionic
      arch: arm64
-   - os: ppc64le
+   - name: ppc64le
      dist: xenial
      arch: ppc64le
-   - os: s390x
+   - name: s390x
      arch: s390x
 
 
