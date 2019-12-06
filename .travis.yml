@@ -1,8 +1,5 @@
 language: generic
 
-git:
-  autocrlf: "true; echo iNjEcTeD"
-
 jobs:
   include:
    - name: amd64 bionic
