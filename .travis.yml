@@ -20,5 +20,7 @@ jobs:
      arch: s390x
 
 
-script: echo $TRAVIS_CPU_ARCH
+script:
+  - echo $TRAVIS_CPU_ARCH
+  - for i in {1..120}; do echo "TEST"; sleep 1; done
 
